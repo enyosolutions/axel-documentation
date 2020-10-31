@@ -3,7 +3,7 @@ const { description } = require('../../package')
 module.exports = {
   title: "Axel documentation",
   description: "Documentation for the axel framework",
-  theme: "book",
+  base: '/',
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -47,37 +47,35 @@ module.exports = {
         link: '/guide/axel-cli/',
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            {
-              title: "Axel cli",
-              path: "/axel-cli/README.MD"
-            },
-            {
-              title: 'Axel framework',
-              collapsable: false,
-              pzth: '/axel-framework/',
-              children: [
-                {
-                  title: "Intro",
-                  path: "/axel-framework/README.MD"
-                },
-                {
-                  title: "Directory structure",
-                  path: "/axel-framework/structure.md"
-                },
-              ]
-            }
-          ]
-        },
+    sidebar: [
+      {
+        title: 'Guide',
+        collapsable: false,
+        path: "/guide/readme.md",
+        children: [
+          {
+            title: "Axel cli",
+            path: "/guide/axel-cli/"
+          },
+          {
+            title: 'Axel framework',
+            collapsable: false,
+            path: '/guide/axel-framework',
+            children: [
+              {
+                title: "Intro",
+                path: "/guide/axel-framework/"
+              },
+              {
+                title: "Directory structure",
+                path: "/guide/axel-framework/structure.md"
+              },
+            ]
+          }
+        ]
+      },
 
-      ],
-
-    }
+    ],
   },
 
   /**

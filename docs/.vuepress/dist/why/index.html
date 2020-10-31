@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>axel | Axel documentation</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Documentation for the axel framework">
+    <meta name="theme-color" content="orange">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.8b1a3ca8.css" as="style"><link rel="preload" href="/assets/js/app.096d055a.js" as="script"><link rel="preload" href="/assets/js/2.5d3347ca.js" as="script"><link rel="preload" href="/assets/js/16.18802f31.js" as="script"><link rel="prefetch" href="/assets/js/10.7c5bd03e.js"><link rel="prefetch" href="/assets/js/11.cdcfc34e.js"><link rel="prefetch" href="/assets/js/12.063d0a01.js"><link rel="prefetch" href="/assets/js/13.dcbc83c5.js"><link rel="prefetch" href="/assets/js/14.137a6e50.js"><link rel="prefetch" href="/assets/js/15.5d62162b.js"><link rel="prefetch" href="/assets/js/3.0277475e.js"><link rel="prefetch" href="/assets/js/4.bf905f50.js"><link rel="prefetch" href="/assets/js/5.633eca57.js"><link rel="prefetch" href="/assets/js/6.77a98d9a.js"><link rel="prefetch" href="/assets/js/7.52ff5244.js"><link rel="prefetch" href="/assets/js/8.f8c70aa1.js"><link rel="prefetch" href="/assets/js/9.6103e93e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8b1a3ca8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/rocket.svg" alt="Axel documentation" class="logo"> <span class="site-name can-hide">Axel documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/guide/axel-framework/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="/why/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Why
+</a></div><div class="nav-item"><a href="/guide/axel-cli/" class="nav-link">
+  Axel cli
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/guide/axel-framework/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="/why/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Why
+</a></div><div class="nav-item"><a href="/guide/axel-cli/" class="nav-link">
+  Axel cli
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>axel</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/why/#features" class="sidebar-link">Features</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="axel"><a href="#axel" class="header-anchor">#</a> axel</h1> <p>At Enyosolutions, We are fans of sailsjs as a framework for nodejs projects. However over the years we've come accross some issues were painfull :</p> <ul><li>Slow startup time (compared to pure express, even express with similar middlewares)</li> <li>No nested services / Controllers folders</li></ul> <p>Also since we don't use waterline and websockets they were unnecessary additions that slowed startup time.
+Hence we started this project as an attempt to have a startup template for our projects that would support all the important features we like from sails without the rest (that could be made available in the future via a package).</p> <h2 id="features"><a href="#features" class="header-anchor">#</a> Features</h2> <ul><li>[x] Routes binding to controllers via config</li> <li>[X] Merged configuration files</li> <li>[X] Globally available axel (with controllers loaded inside)</li> <li>[X] Globally available and merged configuration object</li> <li>[X] Policies for routes (in route definitions and in policies file)</li> <li>[X] Middleware auto wiring</li> <li>[ ] Websockets as a plugin</li> <li>[X] Nested controllers</li> <li>[X] <s>Nested services</s> we are not doing that. it's better to import services, to avoid polluting the global namespace.</li> <li>[X] Loading models and wiring an entity manager.</li> <li>[X] Connecting to the command line in order to sync models</li> <li>[X] Generate bare controllers (connected to the crud controller)</li> <li>[ ] Generate mongoose controllers ?</li> <li>[ ] Move manager.ejs to axel core, and enable the websocket only if config is enabled</li> <li>[ ] rename axel into trex ?</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.096d055a.js" defer></script><script src="/assets/js/2.5d3347ca.js" defer></script><script src="/assets/js/16.18802f31.js" defer></script>
+  </body>
+</html>
