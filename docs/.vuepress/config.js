@@ -3,7 +3,7 @@ const { description } = require('../../package')
 module.exports = {
   title: "Axel documentation",
   description: "Documentation for the axel framework",
-  base: '/',
+  base: '/axel-documentation/',
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
