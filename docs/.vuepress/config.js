@@ -70,6 +70,18 @@ module.exports = {
                 title: "Directory structure",
                 path: "/guide/axel-framework/structure.md"
               },
+              {
+                title: "Routing",
+                path: "/guide/axel-framework/routing.md"
+              },
+              {
+                title: "Models",
+                path: "/guide/axel-framework/models.md"
+              },
+              {
+                title: "Schemas",
+                path: "/guide/axel-framework/schema.md"
+              },
             ]
           }
         ]
