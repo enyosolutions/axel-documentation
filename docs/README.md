@@ -1,20 +1,19 @@
 ---
 home: true
 heroImage: ''
-heroText: Axel documentation
+heroText: Axel Framework
 tagline: Express framework on steroids
 actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Quick and powerful
-  details: Minimal setup yet strongly configurable
-- title: Battle tested
-  details: These components are the best to quickly create a back office.
-- title: Convention over configuration
-  details: Each component comes with sensible configuration that makes them ready to use on the spot
+  - title: Quick and powerful
+    details: Minimal setup yet strongly configurable
+  - title: Battle tested
+    details: These components are the best to quickly create a back office.
+  - title: Convention over configuration
+    details: Each component comes with sensible configuration that makes them ready to use on the spot
 footer: MIT Licensed | Copyright © 2019-present Enyosolutions
 ---
-
 
 ## Axel framework
 
@@ -29,7 +28,6 @@ We found a few awesome libraries that were great a doing their part, but not nec
 
 Hence we decided to cover improve our workflow with various ready to use components.
 
-
 ## features
 
 - Build a back office in a single day.
@@ -37,4 +35,3 @@ Hence we decided to cover improve our workflow with various ready to use compone
 - Import and export data to Excel easily.
 - Display table and edit their contents easily.
 - Link objects with their foreign counterpart easily (foreign key support, nested tab support).
-

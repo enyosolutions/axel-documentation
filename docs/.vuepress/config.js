@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  title: "Axel documentation",
+  title: "Axel Framework",
   description: "Documentation for the axel framework",
   base: '/axel-documentation/',
   /**
