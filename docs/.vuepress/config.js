@@ -82,6 +82,10 @@ module.exports = {
                 title: "Schemas",
                 path: "/guide/axel-framework/schema.md"
               },
+              {
+                title: "Hooks",
+                path: "/guide/axel-framework/hooks.md"
+              },
             ]
           }
         ]
