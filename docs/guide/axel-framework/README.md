@@ -3,10 +3,7 @@ sidebar: auto
 next: ./structure.md # Will overwrite 'nextLinks' property from themeConfig
 ---
 
-@axel/core
-===========
-
-
+# @axel/core
 
 ## Quick Start
 
@@ -48,10 +45,12 @@ Create the `.env` file at the root (example can be found in the `.env.test` file
 
 Enter the MySQL database config in `api/src/config/local.js` (`sqldb` section)
 
-# Synchronyze
+# Synchronize
 
 ## Run It
-#### Run in *development* mode:
+
+#### Run in _development_ mode:
+
 Runs the application is development mode. Should not be used in production
 
 ```shell
@@ -64,7 +63,7 @@ or debug it
 npm run dev:debug
 ```
 
-#### Run in *production* mode:
+#### Run in _production_ mode:
 
 Starts it in production mode.
 
@@ -87,9 +86,9 @@ npm run test:debug
 ```
 
 ## Try It
-* Open you're browser to [http://localhost:3000](http://localhost:3000)
-You should be in the axel manager
 
+- Open you're browser to [http://localhost:3000](http://localhost:3000)
+  You should be in the axel manager
 
 ## Debug It
 
