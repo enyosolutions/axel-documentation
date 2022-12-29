@@ -14,19 +14,19 @@ features:
 Axel is composed of two parts:
 
 <div class="features custom" style="display: flex; flex-direction: row">
-  <div class="feature" onclick="document.location.href= '/guide/axel-framework/' ">
+  <div class="feature" onclick="document.location.href= 'axel-framework/' ">
     <h2> Axel core</h2>
     <p>A framework that extends the express framework
     </p>
-    <a href="/guide/axel-framework/" class="nav-link action-button">
+    <a href=axel-framework/" class="nav-link action-button">
       Get Started →
     </a>
   </div>
-  <div class="feature" onclick="document.location.href= '/guide/axel-cli/' ">
+  <div class="feature" onclick="document.location.href= 'axel-cli/' ">
     <h2> Axel cli</h2>
     <p>A command line utility that helps with running various development tasks.
     </p>
-    <a href="/guide/axel-cli/" class="nav-link action-button">
+    <a href="axel-cli/" class="nav-link action-button">
       Get Started →
     </a>
   </div>
