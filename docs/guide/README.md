@@ -18,7 +18,7 @@ Axel is composed of two parts:
     <h2> Axel core</h2>
     <p>A framework that extends the express framework
     </p>
-    <a href=axel-framework/" class="nav-link action-button">
+    <a href="axel-framework/" class="nav-link action-button">
       Get Started →
     </a>
   </div>
