@@ -1,7 +1,7 @@
 ---
 ---
 
-# Configuration
+# Admin panel
 
 # folder structure
 

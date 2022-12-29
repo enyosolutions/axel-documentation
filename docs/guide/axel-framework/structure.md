@@ -1,10 +1,7 @@
 ---
-sidebar: auto
 ---
 
-# @axel/core
-
-# folder structure
+# App structure
 
 ```bash
 axel.config.js # configuration of the framework regarding path and folders

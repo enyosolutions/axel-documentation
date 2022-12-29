@@ -1,19 +1,56 @@
 ---
-sidebar: auto
 next: ./structure.md # Will overwrite 'nextLinks' property from themeConfig
 ---
 
-# @axel/core
+![](https://github.com/enyosolutions-team/axel-core/workflows/CI/badge.svg)
+[![Version](https://img.shields.io/npm/v/axel-core.svg)](https://npmjs.org/package/axel-core)
+[![Downloads/week](https://img.shields.io/npm/dw/axel-core.svg)](https://npmjs.org/package/axel-core)
+[![License](https://img.shields.io/npm/l/axel-core.svg)](https://github.com/enyosolutions-team/axel-core/blob/master/package.json)
+
+## Presentation
+
+Axel is a framework that provide all the minimum structure necessary to get started with an api project, while beeing fast and flexible.
+It uses :
+
+- express for the http routing
+- Sequelize as an ORM for relational databases
+- Mongoose as an ORM for mongo databases
+- Ejs for templating.
+
+The orm and template engine can be changed at any time.
+
+## features
+
+- Mvc structure for easy navigation
+- routing configuration via a simple object.
+- Merged config for simply accessing all the configuration elements.
+- Common services already baked in : mail, cron, sockets
+- Ready to use backoffice
+- Fully featured crud routes
+- Build a back office in a single day.
+- Connect to an existing REST api and start working.
+- Import and export data to Excel easily.
+- Display table and edit their contents easily.
+- Link objects with their foreign counterpart easily (foreign key support, nested tab support).
 
 ## Quick Start
 
-Get started developing...
+The easiest way to get started is to use the cli starter.
 
 ```shell
 # Install deps
-npm install
+npx axel-core new <project-name>
+```
 
-# Setup environment (if present)
+Follow the instructions to create
+Once the project is created, install the dependencies
+
+```shell
+cd <project-name>
+# Install deps
+npm install # or yarn install
+
+# Setup environment config (if present)
 cp .env.dist .env
 
 # Create the local configuration file

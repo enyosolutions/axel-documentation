@@ -86,6 +86,18 @@ module.exports = {
                 title: "Hooks",
                 path: "/guide/axel-framework/hooks.md"
               },
+              {
+                title: "Config",
+                path: "/guide/axel-framework/config-merging.md"
+              },
+              {
+                title: "Config",
+                path: "/guide/axel-framework/framework-config.md"
+              },
+              {
+                title: "Config",
+                path: "/guide/axel-framework/services.md"
+              },
             ]
           }
         ]

@@ -1,8 +1,5 @@
 ---
-sidebar: auto
 ---
-
-# @axel/core
 
 # hooks
 

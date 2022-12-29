@@ -32,17 +32,16 @@ USAGE
 ...
 ```
 
-# @axel/cli
+# axel-cli
 
 ![](https://github.com/enyosolutions-team/axel-cli/workflows/CI/badge.svg)
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@axel/cli.svg)](https://npmjs.org/package/@axel/cli)
-[![Downloads/week](https://img.shields.io/npm/dw/@axel/cli.svg)](https://npmjs.org/package/@axel/cli)
-[![License](https://img.shields.io/npm/l/@axel/cli.svg)](https://github.com/enyosolutions-team/axel-cli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/axel-cli.svg)](https://npmjs.org/package/axel-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/axel-cli.svg)](https://npmjs.org/package/axel-cli)
+[![License](https://img.shields.io/npm/l/axel-cli.svg)](https://github.com/enyosolutions-team/axel-cli/blob/master/package.json)
 
 <!-- toc -->
 
-- [@axel/cli](#axelcli)
+- [axel-cli](#axelcli)
 - [Usage](#usage)
 - [Commands](#commands)
   <!-- tocstop -->

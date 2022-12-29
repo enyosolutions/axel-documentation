@@ -1,10 +1,7 @@
 ---
-sidebar: auto
 ---
 
-@axel/core
-===========
-
+# Framework Config
 
 ```
 
@@ -59,7 +56,6 @@ module.exports.framework = {
 
 # folder structure
 
-
 ## src
-### api
 
+### api

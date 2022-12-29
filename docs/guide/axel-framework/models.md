@@ -1,15 +1,8 @@
 ---
-sidebar: auto
 ---
 
-@axel/core
+# Models
+
 ===========
 
-
-
-# folder structure
-
-
-## src
-### api
-
+Models are the entities that you work with in your system. They are mapping between your db tables and your ui schema.
