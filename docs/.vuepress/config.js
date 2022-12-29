@@ -51,7 +51,7 @@ module.exports = {
       {
         title: 'Guide',
         collapsable: false,
-        path: "/guide/readme.md",
+        path: "/guide/",
         children: [
           {
             title: "Axel cli",
@@ -87,17 +87,18 @@ module.exports = {
                 path: "/guide/axel-framework/hooks.md"
               },
               {
+                title: "Services",
+                path: "/guide/axel-framework/services.md"
+              },
+              {
                 title: "Config",
                 path: "/guide/axel-framework/config-merging.md"
               },
               {
-                title: "Config",
+                title: "Framework Config",
                 path: "/guide/axel-framework/framework-config.md"
               },
-              {
-                title: "Config",
-                path: "/guide/axel-framework/services.md"
-              },
+
             ]
           }
         ]

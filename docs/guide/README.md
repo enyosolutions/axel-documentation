@@ -13,10 +13,6 @@ features:
 
 Axel is composed of two parts:
 
--
-
--
-
 <div class="features custom" style="display: flex; flex-direction: row">
   <div class="feature" onclick="document.location.href= '/guide/axel-framework/' ">
     <h2> Axel core</h2>
