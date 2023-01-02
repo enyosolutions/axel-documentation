@@ -98,6 +98,16 @@ module.exports = {
                 title: "Framework Config",
                 path: "/guide/axel-framework/framework-config.md"
               },
+              {
+                title: "Trouble shooting",
+                path: "/guide/axel-framework/help/",
+                children: [
+                  {
+                    title: "Connexion to admin",
+                    path: "/guide/axel-framework/help/cannot-connect-to-admin.md"
+                  },
+                ]
+              },
 
             ]
           }

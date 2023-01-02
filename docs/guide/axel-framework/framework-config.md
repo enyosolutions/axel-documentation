@@ -28,7 +28,7 @@ module.exports.framework = {
     ADMIN: { inherits: ['BO'] },
     SUPERADMIN: { inherits: ['ADMIN'] },
   },
-  allowedRoles: ['ADMIN', 'SUPERADMIN'],
+  rolesWithAccessToBackoffice: ['ADMINPANEL','ADMIN', 'SUPERADMIN'],
   defaultPagination: 100,
   defaultLovPagination: 1000,
   axelAdmin: {
