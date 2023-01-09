@@ -33,18 +33,8 @@ module.exports.framework = {
   defaultLovPagination: 1000,
   axelAdmin: {
     enabled: true,
-    editableModels: false,
   },
-  axelManager: true,
   defaultApiSearchMode: 'exact', // defines how search parameters will be resolved by default => exact | start || full || wildcards
-  responseFormat: {
-      page: 0,
-      perPage: 20,
-      totalCount: 0,
-      previous: '',
-      next: '',
-    body: [],
-  },
   errorResponseFormat: {
     errors: ['error_codes'],
     message: 'error message',
